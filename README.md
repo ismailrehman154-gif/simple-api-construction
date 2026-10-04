@@ -1,22 +1,9 @@
-# 🏗️ Project: Simple API 1 - Construction
+# Job Finder
 
-### Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone in the trades (construction, hvac, plumbing, ect)
+Search trade jobs (construction, HVAC, plumbing, that world) and get the top results with apply links and salary info.
 
-### How to submit your code for review:
+![Job Finder screenshot](screenshot.jpg)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+The API is moody about its fields. Salary shows up on some listings and not others, so the whole display leans on optional chaining to keep one missing field from blowing up the page.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Vanilla JavaScript with fetch. My code is on the `answer` branch.
